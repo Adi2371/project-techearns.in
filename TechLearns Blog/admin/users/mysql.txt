@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS Registerd_User AS SELECT * FROM users WHERE full_name='makk';

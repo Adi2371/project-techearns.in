@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    /* Add some content at the bottom of the video/page */
+    .content {
+        position: fixed;
+        top: 0;
+        
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Style the button used to pause/play the video */
+</style>
+
+<body>
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="techlearns.mp4" type="video/mp4">
+    </video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent" >
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Logo.png" alt="" width="" height="48">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end navcontent" id="navbarScroll">
+                    <div style="width: 40%;">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;color: #003955;">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Courses
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                    <li><a class="dropdown-item" href="#">Graphic Designing</a></li>
+                                    <li>
+                                    <li><a class="dropdown-item" href="#">Content Writing</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloud Computing</a></li>
+                                    <li><a class="dropdown-item" href="#">Online Reputation Management</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Want a free workshop or seminar?</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../about/index.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="Logo Alternate.png" alt="" srcset="" width="200"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarScroll">
+                <div class="">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                <li><a class="dropdown-item" href="#">Graphic Designing</a></li>
+                                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="#">Content Writing</a></li>
+                                <li><a class="dropdown-item" href="#">Client Management</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Know More About Our Courses</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar ends here -->
+    <!-- banner from here -->
+    <div class="bannerclass">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card" style="border:none ;">
+                        <img src="Banner1 (2).jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay d-flex align-items-center">
+
+                            <!-- <div class="col-lg-6 cardtextcustom">
+                                <h5 class="banner-heading">LEARN ALL ABOUT</h5>
+                                <p class="card-text banner-subhead">THE LATEST TRENDS AND TECHNOLOGIES</p>
+                                <p class="card-text banner-bottom">OF THE DIGITAL WORLD</p>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" style="border:none ;">
+                        <img src="Banner2 (2).jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay d-flex align-items-center">
+
+                            <!-- <div class="col-lg-6 cardtextcustom2">
+                                <h5 class="banner-heading">AN EDUCATIONAL PLATFORM</h5>
+                                <p class="card-text banner-subhead">FOR THE BETTERMENT</p>
+                                <p class="card-text banner-bottom">OF RURAL INDIA</p>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" style="border:none ;">
+                        <img src="Banner3 (2).jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay d-flex align-items-center">
+
+                            <!-- <div class="col-lg-6 cardtextcustom3">
+                                <h5 class="banner-heading">GET COURSES THAT WILL MAKE YOU</h5>
+                                <p class="card-text banner-subhead">INDUSTRY READY IN NO TIME</p>
+                                <p class="card-text banner-bottom">ENROLL NOW TO EXPERIENCE GREAT LEARNING</p>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</header>
+</html>
